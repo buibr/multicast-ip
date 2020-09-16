@@ -1,0 +1,27 @@
+{
+    "name": "nrbcom/multicast-ip",
+    "description": "Multicast ip helper and manipulator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Burhan Ibraimi",
+            "email": "burhan@nrb.company",
+            "homepage": "http://buib.me"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "NRB\\Multicast\\": "src/",
+            "NRB\\Multicast\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "vimeo/psalm": "^3.16",
+        "phpstan/phpstan": "^0.12.42"
+    }
+}
