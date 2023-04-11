@@ -22,5 +22,5 @@
             "NRB\\Multicast\\": "src/",
             "NRB\\Multicast\\Tests\\": "tests/"
         }
-    },
+    }
 }
