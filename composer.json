@@ -1,6 +1,6 @@
 {
-    "name": "nrbcom/multicast-ip",
-    "description": "Multicast ip helper and manipulator",
+    "name": "buibr/multicast-ip",
+    "description": "Multicast IP helper and manipulator",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,11 @@
         }
     ],
     "require": {
-
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "vimeo/psalm": "^3.16",
+        "phpstan/phpstan": "^0.12.42"
     },
     "autoload": {
         "psr-4": {
@@ -19,9 +23,4 @@
             "NRB\\Multicast\\Tests\\": "tests/"
         }
     },
-    "require-dev": {
-        "phpunit/phpunit": "^8.1",
-        "vimeo/psalm": "^3.16",
-        "phpstan/phpstan": "^0.12.42"
-    }
 }
