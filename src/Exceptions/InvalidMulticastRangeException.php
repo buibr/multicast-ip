@@ -1,10 +1,8 @@
 <?php
 
+namespace Buibr\Multicast\Exceptions;
 
-namespace NRB\Multicast\Exceptions;
-
-
-class InvalidMulticastRangeException extends \ErrorException
+class InvalidMulticastRangeException extends MulticastIpException
 {
-    
+
 }

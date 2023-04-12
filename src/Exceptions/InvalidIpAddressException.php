@@ -1,10 +1,8 @@
 <?php
 
+namespace Buibr\Multicast\Exceptions;
 
-namespace NRB\Multicast\Exceptions;
-
-
-class InvalidIpAddressException extends \ErrorException
+class InvalidIpAddressException extends MulticastIpException
 {
-    
+
 }
